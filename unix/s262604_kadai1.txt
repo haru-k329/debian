@@ -39,7 +39,7 @@ cd hoge
 17.rmdir fuga
 mkdir hoge
 
-18.ホームディレクトリにコピーされる
+18.ホームディレクトリ直下にコピーされる
 
 19./usr/bin
 
