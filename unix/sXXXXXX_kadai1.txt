@@ -23,4 +23,24 @@ cd hoge
 
 10.ホームディレクトリはユーザの作業用になるディレクトリで、カレントディレクトリは現在いるディレクトリのこと。ログインした際の最初のカレントディレクトリがホームディレクトリになる。
 
-11.
+11.copy /etc/hosts hosts.copy
+
+12.mv hosts.copy hosts.move
+
+13.rm hosts.move
+
+14.find /usr/ -name gfortran
+
+15.which python
+
+16.ホームディレクトリの絶対パスが表示される。
+/home/linuc
+
+17.rmdir fuga
+mkdir hoge
+
+18.ホームディレクトリにコピーされる
+
+19./usr/bin
+
+20.　../など今までよくわかっていなかったコマンドについても意味が理解できてとても役に立ちました。
