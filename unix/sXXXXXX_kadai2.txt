@@ -1,21 +1,54 @@
-氏名　　　　　　　：
-アカウント名　　　： sXXXXXX
-ECCSメールアドレス：
+氏名　　　　　　　：大石陽葵
+アカウント名　　　： s262604
+ECCSメールアドレス：0329haru@g.ecc.u-tokyo.ac.jp
 
-1.
+1.ls -l /var/log/*.log > log-files.txt
 
-2.
+2.ls c c++ fortran python 2> error.txt
 
-3.
+3.ls -l /usr/bin | less
 
-4.
+4.ls -l /usr/bin | head -n 10
+ls -l /usr/bin | tail -n 10
 
-5.
+5.ls -l /usr/bin | grep fortran
 
-6.
+6.Linixのシステム全体を管理するユーザーであり、すべてのファイルに対してアクセス権が与えられていたり、システム管理用のコマンドが実行できたりする。一般のユーザーに比べて協力な権限を有している。
 
-7.
+7.引数として与えられたコマンドをroot権限で行うことができるするコマンド
 
-8.
+8.所有者、所有グループともにroot
 
-9.
+9.sudo chown vscode  testdir
+
+10.sudo chgrp vscode testdir
+
+11.chmod u-w testdir
+
+12.chmod a+w testdir
+
+13.Crtl+Z
+
+14.fg
+
+15.bash unix/sleep.sh &
+
+16.jobs
+
+17.kill 123456
+
+18.iキーを押す
+
+19.escキーを押す
+
+20.:q!を入力する
+
+21.:wqを入力する
+
+22.vi hoge.txt
+iキーを押す
+hello worldと入力
+escキーを押す
+:wqを入力する
+
+23.コマンドの種類が増えてきて、オプションとの対応が少し大変ですが簡潔に理解することができたと感じています。
